@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberpunk Sign-Up</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cyberpunk-cube">
+      <div class="cube-face front"></div>
+      <div class="cube-face back"></div>
+      <div class="cube-face right"></div>
+      <div class="cube-face left"></div>
+      <div class="cube-face top"></div>
+      <div class="cube-face bottom"></div>
+    </div>
+    
+    <div class="form-container">
+      <div class="form-header">
+        <div class="glitch-text" data-text="NEXUS//LOGIN">NEXUS//LOGIN</div>
+        <div class="scan-line"></div>
+      </div>
+      
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="signin">SIGN IN</button>
+        <button class="tab-btn" data-tab="signup">SIGN UP</button>
+      </div>
+      
+      <div class="form-wrapper">
+        <!-- Sign In Form -->
+        <form id="signin-form" class="cyber-form active">
+          <div class="form-group">
+            <div class="input-wrapper">
+              <i class="fas fa-user-circle icon-animated"></i>
+              <input type="email" placeholder="NETRUNNER ID" required>
+              <div class="cyber-line"></div>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <div class="input-wrapper">
+              <i class="fas fa-lock icon-animated"></i>
+              <input type="password" placeholder="ACCESS KEY" required>
+              <div class="cyber-line"></div>
+            </div>
+          </div>
+          
+          <button type="submit" class="cyber-button">
+            <span class="button-text">CONNECT</span>
+            <span class="button-glitch"></span>
+          </button>
+          
+          <div class="divider">
+            <span>OR CONNECT WITH</span>
+          </div>
+          
+          <div class="social-login">
+            <button type="button" class="social-btn google">
+              <i class="fab fa-google"></i>
+            </button>
+            <button type="button" class="social-btn facebook">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button type="button" class="social-btn twitter">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button type="button" class="social-btn github">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+          
+          <div class="form-footer">
+            <a href="#" class="cyber-link">Forgot Access Key?</a>
+          </div>
+        </form>
+        
+        <!-- Sign Up Form -->
+        <form id="signup-form" class="cyber-form">
+          <div class="form-group">
+            <div class="input-wrapper">
+              <i class="fas fa-user icon-animated"></i>
+              <input type="text" placeholder="STREET NAME" required>
+              <div class="cyber-line"></div>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <div class="input-wrapper">
+              <i class="fas fa-envelope icon-animated"></i>
+              <input type="email" placeholder="NETRUNNER ID" required>
+              <div class="cyber-line"></div>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <div class="input-wrapper">
+              <i class="fas fa-lock icon-animated"></i>
+              <input type="password" placeholder="ACCESS KEY" required>
+              <div class="cyber-line"></div>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <div class="input-wrapper">
+              <i class="fas fa-shield-alt icon-animated"></i>
+              <input type="password" placeholder="CONFIRM ACCESS KEY" required>
+              <div class="cyber-line"></div>
+            </div>
+          </div>
+          
+          <div class="form-group checkbox-group">
+            <label class="cyber-checkbox">
+              <input type="checkbox" required>
+              <span class="checkmark"></span>
+              <span class="label-text">I accept the <a href="#" class="cyber-link">Terms of Service</a></span>
+            </label>
+          </div>
+          
+          <button type="submit" class="cyber-button">
+            <span class="button-text">INITIALIZE PROFILE</span>
+            <span class="button-glitch"></span>
+          </button>
+          
+          <div class="divider">
+            <span>OR CONNECT WITH</span>
+          </div>
+          
+          <div class="social-login">
+            <button type="button" class="social-btn google">
+              <i class="fab fa-google"></i>
+            </button>
+            <button type="button" class="social-btn facebook">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button type="button" class="social-btn twitter">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button type="button" class="social-btn github">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="scanner-line"></div>
+  <div class="noise-overlay"></div>
+  <div class="corner-accents">
+    <div class="corner top-left"></div>
+    <div class="corner top-right"></div>
+    <div class="corner bottom-left"></div>
+    <div class="corner bottom-right"></div>
+  </div>
+</body>
+</html>
